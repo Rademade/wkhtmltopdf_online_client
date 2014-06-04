@@ -3,7 +3,7 @@ require 'Browser.php';
 
 class WkHtmlToPdf_Converter {
 
-    const SERVER_URI = 'http://127.0.0.1:9393/';
+    const SERVER_URI = 'http://wkhtmltopdf.rademade.com/';
 
     public function convert($html) {
         $browser = new WkHtmlToPdf_Browser();
